@@ -1,0 +1,15 @@
+{
+  "location": { "value": "eastus" },
+  "storageAccounts": {
+    "value": [
+      { "name": "devstorage001", "sku": "Standard_LRS" },
+      { "name": "devstorage002", "sku": "Standard_GRS" }
+    ]
+  },
+  "virtualNetworks": {
+    "value": [
+      { "name": "dev-vnet1", "addressPrefix": "10.0.0.0/16", "subnetPrefix": "10.0.0.0/24" },
+      { "name": "dev-vnet2", "addressPrefix": "10.1.0.0/16", "subnetPrefix": "10.1.0.0/24" }
+    ]
+  }
+}
